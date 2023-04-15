@@ -1,0 +1,21 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLInterface</id><coordinates><x>400</x><y>200</y><w>120</w><h>90</h></coordinates><panel_attributes>Observer
+--
++ update( ): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>280</y><w>130</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Implements
+</panel_attributes><additional_attributes>10;10;80;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>520</x><y>390</y><w>210</w><h>70</h></coordinates><panel_attributes>_object: AAPLPrice_
+--
++ update( ): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>390</y><w>210</w><h>70</h></coordinates><panel_attributes>_object: IBMPrice_
+--
++ update( ): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>280</y><w>140</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Implements
+</panel_attributes><additional_attributes>90;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>240</y><w>180</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>160;10;10;30</additional_attributes></element><element><id>UMLInterface</id><coordinates><x>60</x><y>220</y><w>180</w><h>120</h></coordinates><panel_attributes>Subject
+--
++ register(Observer o): void
++ unregister(Observer o): void
++ notifyObservers( ): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>330</y><w>100</w><h>230</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Implements
+</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>540</y><w>210</w><h>70</h></coordinates><panel_attributes>_object: StockExchange_
+--
++ register(Observer o): void
++ unregister(Observer o): void
++ notifyObservers( ): void</panel_attributes><additional_attributes></additional_attributes></element></diagram>
